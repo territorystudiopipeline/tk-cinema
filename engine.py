@@ -425,9 +425,8 @@ class CinemaEngine(Engine):
                 " changing context."
             )
 
-            # finally create the menu with the new context if needed
-            if old_context != new_context:
-                self.create_shotgun_menu()
+            # finally create the menu with the new context
+            self.create_shotgun_menu()
 
     def _run_app_instance_commands(self):
         """
