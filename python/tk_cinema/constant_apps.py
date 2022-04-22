@@ -36,7 +36,7 @@ menu_prebuild = [
      ["Load...", "3279052", "main"],
      ["Separator", "0", "separator"],
      ["Scene Breakdown...", "1506973", "main"],
-     ["Shotgun Panel...", "2399777", "main"],
+     ["ShotGrid Panel...", "2399777", "main"],
      ["Snapshot History...", "3313077", "main"],
      ["Sync Frame Range with Shotgun", "3366874", "main"],
      ["Separator", "0", "separator"],
