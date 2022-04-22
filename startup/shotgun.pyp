@@ -34,7 +34,7 @@ menu_prebuild = [
     ['Load...', '3279052'],
     ['Reload and Restart', '5919542'],
     ['Work Area Info...', '2574358'],
-    ['Shotgun Panel...', '2399777'],
+    ['ShotGrid Panel...', '2399777'],
     ['Publish...', '3378887'],
     ['Sync Frame Range with Shotgun', '3366874'],
     ['Snapshot History...', '3313077'],
