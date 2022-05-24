@@ -32,7 +32,7 @@ menu_prebuild = [
      ["File Open...", "1760964", "main"],
      ["Snapshot...", "2436236", "main"],
      ["File Save...", "1825592", "main"],
-     ["Publish...", "3378887", "main"],
+     # ["Cinema Publish...", "3126622", "main"],
      ["Load...", "3279052", "main"],
      ["Separator", "0", "separator"],
      ["Scene Breakdown...", "1506973", "main"],
