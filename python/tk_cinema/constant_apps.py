@@ -22,7 +22,7 @@
 
 menu_prebuild = [
      ["Separator", "0", "separator"],
-     ["Jump to Shotgun", "2701393", "submenu"],
+     ["Jump to ShotGrid", "2701393", "submenu"],
      ["Jump to File System", "2158662", "submenu"],
      ["Jump to Screening Room in RV", "2188709", "submenu"],
      ["Jump to Screening Room Web Player", "2419038", "submenu"],
@@ -38,6 +38,6 @@ menu_prebuild = [
      ["Scene Breakdown...", "1506973", "main"],
      ["ShotGrid Panel...", "2399777", "main"],
      ["Snapshot History...", "3313077", "main"],
-     ["Sync Frame Range with Shotgun", "3366874", "main"],
+     ["Sync Frame Range with ShotGrid", "3366874", "main"],
      ["Separator", "0", "separator"],
 ]
