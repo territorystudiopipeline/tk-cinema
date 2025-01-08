@@ -570,17 +570,22 @@ class CinemaEngine(Engine):
                                          "site-packages"))
 
         elif current_os == "win32":
-            desktop_path = os.environ.get("SHOTGUN_DESKTOP_INSTALL_PATH",
-                                          "C:/Program Files/Shotgun")
-            sys.path.append(os.path.join(desktop_path,
-                                         "Python", "Lib", "site-packages"))
+            desktop2_python_path = f"""{os.environ.get('SHOTGUN_DESKTOP_INSTALL_PATH', 
+                                                     'C:/Program Files/Shotgun')}/Python3/Lib/site-packages"""
+            if os.path.exists(desktop2_python_path):
+                sys.path.append(desktop2_python_path)
+
+            else:
+                desktop_python_path = f"""{os.environ.get('SHOTGUN_DESKTOP_INSTALL_PATH', 
+                                                         'C:/Program Files/Shotgun')}/Python/Lib/site-packages"""
+                if os.path.exists(desktop_python_path):
+                    sys.path.append(desktop_python_path)
 
         elif current_os == "linux2":
             desktop_path = os.environ.get("SHOTGUN_DESKTOP_INSTALL_PATH",
                                           "/opt/Shotgun/Shotgun")
             sys.path.append(os.path.join(desktop_path,
                                          "Python", "Lib", "site-packages"))
-
 
         else:
             self.logger.error("Unknown platform - cannot initialize PySide!")
