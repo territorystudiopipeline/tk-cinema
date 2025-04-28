@@ -159,7 +159,7 @@ class SceneChangeEvent(c4d.plugins.MessageData):
 def EnhanceMainMenu():
     mainMenu = c4d.gui.GetMenuResource("M_EDITOR")
     menu = c4d.BaseContainer()
-    menu.InsData(c4d.MENURESOURCE_SUBTITLE, "Shotgun")
+    menu.InsData(c4d.MENURESOURCE_SUBTITLE, "ShotGrid")
 
     submenu = c4d.BaseContainer()
     submenu.InsData(c4d.MENURESOURCE_SUBTITLE, "{}".format(engine.context))
