@@ -38,6 +38,7 @@ menu_prebuild = [
     ['Publish...', '3378887'],
     ['Sync Frame Range with Shotgun', '3366874'],
     ['Snapshot History...', '3313077'],
+    ['Camera Interchange...', '3366777'],
 ]
 
 logger = sgtk.LogManager.get_logger('shotgun.pyp')
