@@ -40,4 +40,5 @@ menu_prebuild = [
      ["Snapshot History...", "3313077", "main"],
      ["Sync Frame Range with ShotGrid", "3366874", "main"],
      ["Separator", "0", "separator"],
+     ["Camera Interchange...", "3366777", "main"],
 ]
